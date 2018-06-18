@@ -1,22 +1,30 @@
 VagrantRailsBox
-Create a vagrant box for rails.
+Create a vagrant box for ruby/rails/pg gem (connector) 
 
+Edit setup.sh to adjust the version(s) of ruby and rails
 ==============================================================
-vagrant init ubuntu/trusty32
 
-* edit Vagrant file and add following
-* config.vm.provider "virtualbox" do |v|
-*   v.name = "name_of_your_vm_box"
-* end
-* config.vm.network "forwarded_port", guest: 3000, host: 3000
+* from the command line of the folder you want to work in type:
 
-vagrant up
-vagrant ssh
+  vagrant init ubuntu/trusty32
 
-* execute setup.sh to install components needed for rails/ruby
 
-./setup.sh
+* edit Vagrant file and add following (adjust "name_of_your_vm_box" to your liking)
 
-* run following after setup.sh execution
-source ~/.profile
+  config.vm.provider "virtualbox" do |v|
+    v.name = "name_of_your_vm_box"
+  end
+
+  config.vm.network "forwarded_port", guest: 3000, host: 3000
+
+
+* command line type:
+  
+  vagrant up
+  
+  vagrant ssh
+
+
+* create and execute setup.sh to install components needed for ruby/rails/pg (connector)
+
 
