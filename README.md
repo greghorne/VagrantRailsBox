@@ -1,4 +1,5 @@
 VagrantRailsBox
+
 Create a vagrant box for ruby/rails/pg gem (connector) 
 
 Edit setup.sh to adjust the version(s) of ruby and rails
