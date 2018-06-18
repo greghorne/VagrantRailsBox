@@ -27,6 +27,6 @@ Edit setup.sh to adjust the version(s) of ruby and rails
   vagrant ssh
 
 
-* create and execute setup.sh to install components needed for ruby/rails/pg (connector)
+* copy and execute setup.sh to install components needed for ruby/rails/pg (connector)
 
 
