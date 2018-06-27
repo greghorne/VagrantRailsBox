@@ -1,9 +1,6 @@
 #!/bin/bash
 eval "sudo apt-get purge ruby -y"
-#eval "sudo aptitude purge ruby1.9.1 -y"
-eval "sudo apt-get update"
 eval "sudo apt-get install autoconf bison build-essential libssl-dev libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm3 libgdbm-dev -y"
-eval "sudo apt-get install git -y"
 
 eval 'git clone https://github.com/rbenv/rbenv.git ~/.rbenv'
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.profile
@@ -30,8 +27,6 @@ eval "gem install rails"
 eval "sudo apt-get install postgresql-client libpq5 libpq-dev"
 eval "gem install pg"
 eval "sudo apt-get install bundler -y"
-
-eval "sudo apt-get install git"
 
 echo "git config --global credential.helper cache --timeout=10800" >> ~/.profile
 echo "git config --global user.email 'greghorne@hotmail.com'" >> ~/.profile
