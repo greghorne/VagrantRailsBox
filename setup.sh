@@ -28,11 +28,14 @@ eval "sudo apt-get install postgresql-client libpq5 libpq-dev"
 eval "gem install pg"
 eval "sudo apt-get install bundler -y"
 
+eval "sudo apt-get autoremove"
+
 echo "git config --global credential.helper cache --timeout=10800" >> ~/.profile
 echo "git config --global user.email 'greghorne@hotmail.com'" >> ~/.profile
 echo "git config --global user.name 'Greg Horne'" >> ~/.profile
 
 echo "source ~/.profile"
+echo "rm -rf .git"
 
 echo "install finished..."
 
