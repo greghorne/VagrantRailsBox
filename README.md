@@ -13,18 +13,20 @@ Edit setup.sh to adjust the version(s) of ruby and rails
 
 * edit Vagrant file and add following (adjust "name_of_your_vm_box" to your liking)
 
-  config.vm.provider "virtualbox" do |v|
-    v.name = "name_of_your_vm_box"
-  end
 
-  config.vm.network "forwarded_port", guest: 3000, host: 3000
+  - config.vm.provider "virtualbox" do |v|
+  -  v.name = "name_of_your_vm_box"
+  -end
+
+  - config.vm.network "forwarded_port", guest: 3000, host: 3000
+
 
 
 * command line type:
   
-  vagrant up
+  - vagrant up
   
-  vagrant ssh
+  - vagrant ssh
 
 
 * copy and execute setup.sh to install components needed for ruby/rails/pg (connector)
