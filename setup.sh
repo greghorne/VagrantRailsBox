@@ -23,7 +23,7 @@ eval "~/.rbenv/versions/2.5.1/bin/gem install bundler"
 eval "~/.rbenv/versions/2.5.1/bin/gem install rails -v 5.2.0"
 eval "~/.rbenv/bin/rbenv rehash"
 
-#eval "sudo apt-get install default-jre -y"
+# install jre
 eval "sudo apt-get install nodejs -y"
 
 eval "gem install rails"
