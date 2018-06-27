@@ -33,9 +33,14 @@ echo "git config --global credential.helper cache --timeout=10800" >> ~/.profile
 echo "git config --global user.email 'greghorne@hotmail.com'" >> ~/.profile
 echo "git config --global user.name 'Greg Horne'" >> ~/.profile
 
-echo "source ~/.profile"
 echo "rm -rf .git"
 
+echo ""
+echo ""
+echo "==================="
 echo "install finished..."
-
-
+echo "==================="
+echo ""
+echo "type: source ~/.profile on the command line and hit enter"
+echo ""
+echo ""
