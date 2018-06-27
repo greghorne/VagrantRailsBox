@@ -28,6 +28,16 @@ Edit setup.sh to adjust the version(s) of ruby and rails
   
   - vagrant ssh
 
+  - sudo apt-get install git -y
+
+  - git clone https://github.com/greghorne/VagrantRailsBox/blob/master/setup.sh code
+
+  - cd code
+ 
+  - chomod +x setup.sh
+
+  - ~/code/setup.sh
+
 
 * copy and execute setup.sh to install components needed for ruby/rails/pg (connector)
 
