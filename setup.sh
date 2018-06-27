@@ -26,7 +26,6 @@ eval "sudo apt-get install nodejs -y"
 eval "gem install rails"
 eval "sudo apt-get install postgresql-client libpq5 libpq-dev"
 eval "gem install pg"
-eval "sudo apt-get install bundler -y"
 
 eval "sudo apt-get autoremove"
 
