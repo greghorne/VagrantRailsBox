@@ -34,9 +34,6 @@ echo "git config --global user.name 'Greg Horne'" >> ~/.profile
 
 echo "source ~/.profile"
 
-echo ""
-echo ""
 echo "install finished..."
-echo "type: source ~/.profile"
 
 
