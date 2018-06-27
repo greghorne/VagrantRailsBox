@@ -32,7 +32,7 @@ Edit setup.sh to adjust the version(s) of ruby and rails
 
   - sudo apt-get install git -y
 
-  - git clone https://github.com/greghorne/VagrantRailsBox/blob/master/setup.sh setup_folder
+  - git clone https://github.com/greghorne/VagrantRailsBox setup_folder
 
   - ~/setup_folder/setup.sh
 
