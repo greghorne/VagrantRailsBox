@@ -7,7 +7,7 @@ Create a vagrant box for ruby/rails/pg gem (connector)
 
 Prerequisite:
 
-- Install Vagrant - https://www.vagrantup.com/
+- Install Vagrant    - https://www.vagrantup.com/
 - Install VirtualBox - https://www.virtualbox.org/
 
 ==============================================================
